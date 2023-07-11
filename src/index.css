@@ -1,0 +1,153 @@
+* {
+  margin: 0%;
+  padding:0% ;
+  font-family: "Quicksand";
+  color: #333;
+  background-color: #ffeea4;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  /* max-width: 600px; */
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #ff9c62;
+}
+.navbar .links {
+  margin-left: auto;
+  
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #f66218;
+}
+.navbar a:hover {
+  color: #ff9c62;
+}
+.content {
+  /* max-width: 600px; */
+  margin: 40px auto;
+  padding: 20px;
+}
+.SearchBox{
+  /* background-color: aqua; */
+  width: 100%;
+  height: 300px;
+  display:flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  color: #ff9c62;
+}
+.SearchBox h1{
+  color: #f66218;
+  padding-right: 16px;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid  #f66218;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-bottom: 8px;
+}
+button {
+  width: 200px;
+  height: 0px;
+  /* width: 50%; */
+  height: 40px;
+  border-radius: 10px;
+  border:none;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ff9c62;
+  cursor: pointer;
+  color:#f66218;
+  margin: 8px;
+}
+.SearchBox button:hover{
+  cursor: pointer;
+  background-color: #ffeea4;
+  border: 1px solid  #f66218;
+}
+
+.list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+  grid-gap:8px;
+
+}
+.card{
+  width: 250px;
+  height: auto;
+  background-color:#9EDEF9;
+  border-radius: 4px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 8px;
+}
+
+
+.card,img{
+  margin: 2px;
+  height: auto;
+  image-rendering: auto;
+
+}
+.card,h2{
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-top: 2px;
+  background-color: #9EDEF9;
+  text-align: center;
+  font-size: 14;
+}
+.abilities{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.abilities .group{
+  background-color: #b74555;
+  color: white;
+  padding: 0.5rem;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-left: 1rem;
+}
+.base-stat{
+  margin-top: 2rem;
+}
+.btn-group{
+  display: flex;
+}
+.btn-group button{
+  outline: none;
+  border: none;
+  width: 150px;
+  padding: 0.3rem 0;
+  margin: 1rem;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  background-color: #b74555;
+  border-radius: 8px;
+}
